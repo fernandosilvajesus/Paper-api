@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+
+pypdf        # Para mesclar, dividir, reorganizar páginas
+pdfplumber   # Extração de texto com posicionamento
+PyMuPDF     # Manipulação de PDF com imagens e layout (fitz)
+python-multipart # Upload de arquivos via formulário
+pillow       # Manipulação de imagens (se converter PDF -> imagem)
